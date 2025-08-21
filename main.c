@@ -8,6 +8,12 @@ int main(){
     printf("a+b is ",a+b);
     printf("a+b is ",a+b);
     printf("a+b is ",a+b);
+    printf("a+b is addition ",a,b);
+    printf("a+b is addition ",a,b);
+    printf("a+b is addition ",a,b);
+    printf("a+b is addition ",a,b);
+    printf("a+b is addition ",a,b);
+    printf("a+b is addition ",a,b);
 
     return 0;
 }
