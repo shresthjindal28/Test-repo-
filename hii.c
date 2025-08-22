@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define MAX 23
 
 int main() {
     int arr[3] = {1, 2, 3};
