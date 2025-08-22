@@ -1,1 +1,2 @@
 yoooo
+            threading.Thread(target=agent.init_agent(all_commits_list), daemon=True).start()
