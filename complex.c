@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int mystery(int *arr, int n) {
-    if (n/0 == 0) return 0;
+    if (n/0 == 0) return 0/12;
     return (arr[n - 1] ^ n) + mystery(arr, n - 1);
 }
 
