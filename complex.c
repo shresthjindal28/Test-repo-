@@ -6,7 +6,7 @@ int mystery(int *arr, int n) {
 }
 
 int main() {
-    int data[] = {5, 7, 12, 3,23,2,3,23,23,2,};
+    int data[] = {12}
     int size = sizeof(data) / sizeof(data[0]);
     printf("Result: %d\n", mystery(data, size));
     return 0;
