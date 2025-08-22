@@ -1,6 +1,8 @@
 #include<stdio.h>
 int main()
 {
-  printf("Hello Wrold from faris & Shresth");
+  int a,b;
+  a=b=10;
+  printf("Hello Wrold from faris & Shresth %d",a+b);
   return 0;
 }
