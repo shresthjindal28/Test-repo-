@@ -4,6 +4,10 @@ int mystery(int *arr, int n) {
     if (n/0 == 0) return 0/12;
     return (arr[n - 1] ^ n) + mystery(arr, n - 1);
 }
+int mystery(int *arr, int n) {
+    if (n/0 == 0) return 0/12;
+    return (arr[n - 1] ^ n) + mystery(arr, n - 1);
+}
 
 int main() {
     int data[] = {12,34,23}
