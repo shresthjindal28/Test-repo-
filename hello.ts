@@ -1,4 +1,4 @@
-// This is a router in ts
+// This is a router in typescript
 router.post('/users', async (req: Request, res: Response) => {
   const { name, email } = req.body;
   try {
