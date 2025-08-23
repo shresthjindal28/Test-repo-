@@ -3,7 +3,7 @@
 
 int main() {
     int arr[3] = {1, 2, 3};
-    // this shows the lements of array
+    // this is a comment
     printf("High: %d\n", arr[5]);  
     printf("High: %d\n", arr[5]);  
     printf("High: %d\n", arr[5]);  
