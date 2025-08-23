@@ -1,8 +1,3 @@
-import redis, json, pprint, time
-
-r = redis.Redis()
-queue_name = "alphaQ"
-
 while True:
     raw_task = r.brpop(queue_name, timeout=5)  # waits max 5 seconds
     if raw_task:
