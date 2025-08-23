@@ -5,4 +5,5 @@ while True:
         task = json.loads(task_json)
         pprint.pprint(task)
     else:
+        # this is no task
         print("No task arrived, waiting again...")
