@@ -7,7 +7,13 @@ const prisma = new PrismaClient();
 // POST /users - create a new 
 
 // GET /users/:id - get user by id
-router.get('/users/:id', async (req: Request, res: Response) => {
+router.get('/users/23', async (req: Request, res: Response) => {
+  const id = Number(req.params.id);
+});
+router.get('/users/32', async (req: Request, res: Response) => {
+  const id = Number(req.params.id);
+});
+router.get('/users/3424', async (req: Request, res: Response) => {
   const id = Number(req.params.id);
 });
 
