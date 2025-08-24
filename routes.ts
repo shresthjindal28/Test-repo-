@@ -13,11 +13,6 @@ router.get('/users/:id', async (req: Request, res: Response) => {
     const user = await prisma.user.findUnique({
       where: { id },
     });
-    if (user) {
-      res.json(user);
-    } else {
-      res.status(404).json({ error: 'User not found.' });
-    }
   } catch (error) {
     res.status(500).json({ error: 'Database error.' });
   }
