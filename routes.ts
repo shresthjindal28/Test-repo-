@@ -5,10 +5,6 @@ const router = Router();
 const prisma = new PrismaClient();
 
 // POST /users - create a new user
-router.post('/users', async (req: Request, res: Response) => {
-  const { name, email } = req.body;
-
-});
 
 // GET /users/:id - get user by id
 router.get('/users/:id', async (req: Request, res: Response) => {
