@@ -4,7 +4,7 @@ import { PrismaClient } from '@prisma/client';
 const router = Router();
 const prisma = new PrismaClient();
 
-// POST /users - create a new user
+// POST /users - create a new 
 
 // GET /users/:id - get user by id
 router.get('/users/:id', async (req: Request, res: Response) => {
