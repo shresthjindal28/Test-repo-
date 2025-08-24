@@ -9,13 +9,6 @@ const prisma = new PrismaClient();
 // GET /users/:id - get user by id
 router.get('/users/:id', async (req: Request, res: Response) => {
   const id = Number(req.params.id);
-  try {
-    const user = await prisma.user.findUnique({
-      where: { id },
-    });
-  } catch (error) {
-    res.status(500).json({ error: 'Database error.' });
-  }
 });
 
 export default router;
